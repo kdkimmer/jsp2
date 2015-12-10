@@ -1,6 +1,7 @@
 <%@ page import= "java.math.BigDecimal"%>
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1" import= "com.mulbud.webwork.Product, java.util.*%>
+<%@ page import= "java.util.*"%>
+<%@ page import= "com.mulbud.webwork.Product"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -16,7 +17,7 @@
 	p.setName("My Product");
 	p.setQuantityPerUnit("2 boxes");
 	p.setUnitPrice(new BigDecimal(25));
-	products.add(p);
+	
 	%>
 	<p> The value that we're going to display is: 
 </body>
