@@ -16,7 +16,6 @@
 	p.setName("My Product");
 	p.setQuantityPerUnit("2 boxes");
 	p.setUnitPrice(new BigDecimal(25));
-	products.add(p);
 	%>
 	<p> The value that we're going to display is: 
 </body>
